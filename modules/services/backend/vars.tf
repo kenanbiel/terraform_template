@@ -1,0 +1,13 @@
+variable "client_name" {}
+variable "region" {}
+variable "vpc_id" {}
+variable "subnet1" {}
+variable "subnet2" {}
+variable "client_cidr" {}
+variable "asg_max_size" {}
+variable "asg_min_size" {}
+variable "image_id" {}
+variable "instance_type" {}
+variable "keyname" {}
+variable "ssl_certificate_arn" {}
+variable "frontend_sg" {}
